@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id = "@+id/rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation = "vertical"
+    android:background = "#c1c1c1"
+    android:gravity = "center_horizontal"
+    tools:context=".opmenu">
+
+    <Button
+        android:id="@+id/popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:background="@drawable/btn_custom"
+        android:fontFamily="@font/roboto_regular"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/white"/>
+
+    <menu>
+        <item
+            android:id = "@+id/profile"
+            android:title = "Profile"
+            android:fontFamily="@font/indigo_daisy"/>
+
+        <item
+            android:id="@+id/email"
+            android:title="Send email"
+            android:fontFamily="@font/indigo_daisy"/>
+        <item
+            android:id = "@+id/note"
+            android:title = "Add note"
+            android:fontFamily="@font/indigo_daisy"/>
+        <item
+            android:id = "@+id/contacts"
+            android:title = "Contacts"
+            android:fontFamily="@font/indigo_daisy"/>
+        <item
+            android:id = "@+id/settings"
+            android:title = "Settings"
+            android:fontFamily="@font/indigo_daisy"/>
+        <item
+            android:id = "@+id/logout"
+            android:title = "Logout"
+            android:fontFamily="@font/indigo_daisy"/>
+    <menu/>
+</FrameLayout>
