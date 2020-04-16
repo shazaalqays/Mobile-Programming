@@ -188,5 +188,5 @@ After creating the login class we need to define its design in xml we call it `a
 </RelativeLayout>
 ```
 The result design will be similar to 
-![Result1](https://github.com/shazaalqays/Mobile-Programming/login.png)
+![Result1](https://github.com/shazaalqays/Mobile-Programming/login.jpg)
 Login activity will lead us to register activity, so we create `register.java`
