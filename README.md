@@ -187,5 +187,6 @@ After creating the login class we need to define its design in xml we call it `a
         android:text="Register" />
 </RelativeLayout>
 ```
-The result design will be similar to ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+The result design will be similar to 
+![Result1](https://github.com/shazaalqays/Mobile-Programming/login.png)
 Login activity will lead us to register activity, so we create `register.java`
