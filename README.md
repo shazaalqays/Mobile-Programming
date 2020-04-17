@@ -16,4 +16,4 @@ We want to make an application simillar to email application.
 ![Result6](https://github.com/shazaalqays/Mobile-Programming/blob/master/msg.jpg)
 
 # NOTE
-I had a problem with emulator the reason why I'm not sure about my codes and results. I tried to fix the problem somehow but I couldn't. Thanks for understanding in advance
+I had a problem with emulator the reason why I'm not sure about my codes and results. I tried to fix the problem somehow but I couldn't, it was a sudden problem. Also I tried to connect a real device but somehow the connection was failing. Thanks for understanding in advance.
